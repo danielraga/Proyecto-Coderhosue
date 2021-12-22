@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// variables 
+
+$navbar: #4cbd0a;
+$titulos: #0e0d0d;
+$parrafos: #2c2828;
+
+// variables
+
+
+
+@mixin text-shadow($x,$y,$blur,$color){
+    text-shadow: $x $y $blur $color;
+}
+
+.nuestroServis{
+    @extend .section1;
+}
+
+.textoServis{
+    @extend .item;
+}
+
+.somos{
+    @extend .item;
+}
+
+.textos{
+    @extend .servis;
+}
+

@@ -1,0 +1,25 @@
+#botonera{
+    background-color: $navbar;
+    border-radius: 5px;
+    ul li{
+        font-weight: bold;
+        color: $parrafos;
+    }
+    a{
+        color: $parrafos;
+        background-image: linear-gradient(currentColor, currentColor);
+        background-position: 0% 100%;
+        background-repeat: no-repeat;
+        background-size: 0% 2px;
+        transition: background-size .4s;
+    }
+    a:hover, a:focus{
+        background-size: 100% 2px;
+    }
+}
+
+.navbar-brand{
+    font-weight: bold;
+    color: $parrafos;
+}
+

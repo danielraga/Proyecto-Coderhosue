@@ -1,0 +1,21 @@
+footer{
+    background: $navbar;
+    color: $parrafos;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px 0;
+}
+
+.textos-footer{
+    grid-column: 1/-1;
+    margin-bottom: 5px;
+}
+
+[class^="footer-item"] a{
+  color: $titulos;
+  font-size: 30px;
+}
+
+[class^="footer-item"]{
+    grid-column: span 4;
+}
